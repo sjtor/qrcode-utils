@@ -1,4 +1,4 @@
-package com.github.sjtor.utils;
+package io.github.sjtor.utils;
 
 import com.google.common.collect.Maps;
 import com.google.zxing.BarcodeFormat;

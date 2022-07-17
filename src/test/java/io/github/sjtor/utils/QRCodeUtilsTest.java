@@ -1,4 +1,4 @@
-package com.github.sjtor.utils;
+package io.github.sjtor.utils;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

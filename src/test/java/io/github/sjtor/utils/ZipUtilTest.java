@@ -1,6 +1,6 @@
-package com.github.sjtor.utils;
+package io.github.sjtor.utils;
 
-import com.github.sjtor.core.ZipBytesEntry;
+import io.github.sjtor.core.ZipBytesEntry;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -20,7 +20,7 @@ public class ZipUtilTest {
     public static void main(String[] args) throws IOException {
         ServiceImpl impl = new ServiceImpl();
         ZipBytesEntry e1 = impl.testGenerateQRCodeImage(content, "bare");
-        ZipBytesEntry e2 = impl.testGenerateQRCodeImage(content, "", "full");
+        ZipBytesEntry e2 = impl.testGenerateQRCodeImage(content, "qrcode-utils", "full");
 
         File file = new File("./qrcode.zip");
         OutputStream os = new FileOutputStream(file);

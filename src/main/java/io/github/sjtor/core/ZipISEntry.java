@@ -1,4 +1,4 @@
-package com.github.sjtor.core;
+package io.github.sjtor.core;
 
 import java.io.InputStream;
 import java.io.Serializable;

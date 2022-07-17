@@ -1,8 +1,8 @@
-package com.github.sjtor.utils;
+package io.github.sjtor.utils;
 
-import com.github.sjtor.core.ZipBytesEntry;
-import com.github.sjtor.core.ZipFileEntry;
-import com.github.sjtor.core.ZipISEntry;
+import io.github.sjtor.core.ZipBytesEntry;
+import io.github.sjtor.core.ZipFileEntry;
+import io.github.sjtor.core.ZipISEntry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
